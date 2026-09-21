@@ -1,0 +1,56 @@
+.profile-card { 
+    width: 700px; 
+    background-color: white; 
+    border-radius: 15px; 
+    padding: 35px; 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12); 
+} 
+.profile-header { 
+    text-align: center; 
+    border-bottom: 1px solid #ddd; 
+    padding-bottom: 25px; 
+    margin-bottom: 25px; 
+} 
+.profile-icon { 
+    width: 90px; 
+    height: 90px; 
+    margin: 0 auto 15px; 
+    border-radius: 50%; 
+    background-color: #2563eb; 
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 28px; 
+    font-weight: bold; 
+} 
+.profile-header h1 { 
+    font-size: 32px; 
+    margin-bottom: 8px; 
+    color: #222; 
+} 
+.role { 
+    color: #2563eb; 
+    font-size: 18px; 
+    font-weight: bold; 
+} 
+.info-section { 
+    margin-bottom: 22px; 
+} 
+.info-section h2 
+{ font-size: 20px; 
+    color: #222; 
+    margin-bottom: 8px; 
+} 
+.info-section p {
+     color: #555; line-height: 1.6; 
+    } 
+.skills { 
+    display: flex; flex-wrap: wrap; gap: 10px; 
+} 
+.skills span { 
+    background-color: #e8f0fe; 
+    color: #2563eb; padding: 8px 14px; 
+    border-radius: 20px; 
+    font-size: 14px; 
+    font-weight: bold; }
