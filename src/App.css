@@ -1,15 +1,96 @@
-* { margin: 0; 
-    padding: 0; 
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-  } 
-body { 
-    font-family: Arial, sans-serif; 
-    background-color: #f2f4f7; 
-} 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eef4ff;
+}
+
 .app {
-     min-height: 100vh; 
-     display: flex; 
-     justify-content: center; 
-     align-items: center; 
-     padding: 40px 20px; 
+    min-height: 100vh;
+    padding: 40px 6%;
+}
+
+
+/* Header */
+
+.page-header {
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #42a5f5,
+        #7c4dff
+    );
+
+    color: white;
+
+    padding: 30px 20px;
+
+    border-radius: 18px;
+
+    margin-bottom: 35px;
+
+    box-shadow: 0 10px 25px rgba(70, 100, 180, 0.2);
+}
+
+.header-icon {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.page-header h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.page-header p {
+    font-size: 17px;
+    opacity: 0.95;
+}
+
+
+/* User cards container */
+
+.users-container {
+    max-width: 1250px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+
+    .users-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .app {
+        padding: 20px 15px;
+    }
+
+    .users-container {
+        grid-template-columns: 1fr;
+    }
+
+    .page-header h1 {
+        font-size: 28px;
+    }
+
 }

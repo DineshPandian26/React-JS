@@ -1,0 +1,134 @@
+.user-card {
+    background: rgb(234, 112, 112);
+
+    border-radius: 18px;
+
+    padding: 22px;
+
+    box-shadow: 0 8px 25px rgba(60, 90, 130, 0.12);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+
+/* Hover effect */
+
+.user-card:hover {
+    transform: translateY(-7px);
+
+    box-shadow: 0 15px 35px rgba(60, 90, 130, 0.2);
+}
+
+
+/* Top section */
+
+.user-top {
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid #e4e8ef;
+}
+
+
+/* Avatar */
+
+.avatar {
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+
+    background: linear-gradient(
+        135deg,
+        #dbeafe,
+        #bfdbfe
+    );
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color: #2563eb;
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    flex-shrink: 0;
+}
+
+
+/* Name */
+
+.user-heading h2 {
+    color: #172554;
+
+    font-size: 25px;
+
+    margin-bottom: 8px;
+}
+
+.user-heading p {
+    color: #5d739f;
+
+    font-size: 16px;
+}
+
+
+/* Details */
+
+.user-details {
+    margin-top: 10px;
+}
+
+.detail-row {
+    display: grid;
+
+    grid-template-columns: 120px 1fr;
+
+    align-items: center;
+
+    min-height: 45px;
+
+    border-bottom: 1px solid #e8edf5;
+}
+
+.detail-label {
+    color: #6179a6;
+
+    font-size: 15px;
+}
+
+.detail-value {
+    color: #172554;
+
+    font-size: 15px;
+
+    word-break: break-word;
+}
+
+
+/* ID */
+
+.user-id {
+    margin-top: 18px;
+
+    padding: 13px;
+
+    border-radius: 10px;
+
+    background: #eff6ff;
+
+    color: #2563eb;
+
+    font-weight: bold;
+
+    font-size: 15px;
+}
